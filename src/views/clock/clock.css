@@ -1,0 +1,15 @@
+body {
+  width: 250px;
+  height: 80px;
+  overflow: hidden;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+div{
+  margin: auto;
+}
+.state{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 35px
+}

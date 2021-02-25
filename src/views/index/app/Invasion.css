@@ -1,0 +1,26 @@
+.progressBar {
+  height: 5px;
+  width: 100%;
+  background-color: rgba(0,0,0,.85);
+}
+
+.progressBarInner {
+  height: 100%;
+  width: 0%;
+  background-color: #1890ff;
+}
+.reward {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.reward div {
+  width: 50%
+}
+.rewardLeft{
+  text-align: left;
+}
+.rewardRight{
+  text-align: right;
+}

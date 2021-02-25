@@ -1,0 +1,45 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  background-color: #aaaaaa;
+  width: 800px;
+  height: 500px;
+}
+.sideBar {
+  width: 200px;
+  height: 100%
+}
+.logo {
+  height: 32px;
+  margin: 16px;
+  width: 168px;
+}
+body {
+  user-select: none;
+}
+.dragArea {
+  -webkit-app-region: drag;
+  position: fixed;
+  width: calc(100% - 20px);
+  height: 30px;
+  top: 0px;
+  left: 0px;
+}
+.closeWindow {
+  background-color: #8B0000;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+}
+.closeWindow:hover {
+  background-color: #b30000;
+}
+.closeWindow:active {
+  background-color: #800000;
+}
+.ant-select{
+  user-select: contain;
+}
